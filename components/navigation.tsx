@@ -25,7 +25,6 @@ export function Navigation() {
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
     { name: "Blog", href: "/blog" },
-    { name: "Events", href: "/events" },
     { name: "Team", href: "/team" },
     { name: "Contact", href: "/contact" },
   ]
@@ -179,12 +178,6 @@ export function Navigation() {
                       variant="outline"
                     >
                       <Link href="/login">Login</Link>
-                    </Button>
-                    <Button
-                      asChild
-                      className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 font-semibold shadow-lg"
-                    >
-                      <Link href="/register">Sign Up</Link>
                     </Button>
                   </>
                 )}
